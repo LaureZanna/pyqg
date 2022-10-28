@@ -195,7 +195,8 @@ class BackscatterBiharmonic(QParameterization):
     r"""PV parameterization based on `Jansen and Held 2014`_ and
     `Jansen et al.  2015`_ (adapted by Pavel Perezhogin). Assumes that a
     configurable fraction of Smagorinsky dissipation is scattered back to
-    larger scales in an energetically consistent way.
+    larger scales in an energetically consistent way. Modification is described in Apendix A2 of Ross et al. 2022 
+    .. _https://www.essoar.org/pdfjs/10.1002/essoar.10511742.2
 
     .. _Jansen and Held 2014: https://doi.org/10.1016/j.ocemod.2014.06.002
     .. _Jansen et al. 2015: https://doi.org/10.1016/j.ocemod.2015.05.007
